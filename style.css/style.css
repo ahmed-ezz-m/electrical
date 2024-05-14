@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Almarai", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+/* card */
+.carousel{
+    height: 65vh;
+    color: black;
+}
+.gread{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+.card{
+    width: 350px;
+}
+.card-text ,.card-body{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.card-body{
+    text-align: center;
+}
+.card a{
+    text-decoration: none;
+    color: black;
+    
+}
+.card a:hover{
+    color: rgb(63, 137, 145);
+    
+}
+.carousel img{
+    width: 100%;
+    height: 65vh;
+}
+@media (max-width:1000px) {
+    .gread{
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    .card{
+        width: 300px;
+    }
+}
+/* footer */
+.soshil{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(167 246 255);
+    border-radius: 7px 7px 0 0;
+
+}
+.soshil a{
+    padding: 7px 5px;
+    font-size: 25px;
+    color: rgba(130, 130, 130, 0.753);
+}
+.soshil a:hover{
+    color: rgba(0, 0, 0, 0.753);
+}
